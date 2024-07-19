@@ -15,4 +15,5 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON  --console --map
 
 The above two commands open iris with no extra environment in gazebo and runs SITL ardupilot respectively.
 
-Run main.py file to see how to communciate with drone using pymavlink.
+ - Run main.py file to see how to communciate with drone using pymavlink.
+ - takeoff_land.py -> takes drone upto certain height and after reaching that height it returns to it's home location.
